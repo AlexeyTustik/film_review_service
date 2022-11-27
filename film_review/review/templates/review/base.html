@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link type="text/css" href="{% static 'review/css/styles.css'%}" rel='stylesheet' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Тестовое задание Гринатом</title>
+</head>
+
+<body>
+    {% block content %}
+    {% endblock %}
+    <footer>
+        <ul>
+            <li><a href="https://colab.research.google.com/drive/1KfwcpGIvEjpl6045xMFXlaxSzM6ZlX9E?usp=sharing"
+                    target="_blank">Notebook
+                    модели</a></li>
+            <li><a href="https://github.com/AlexeyTustik" target="_blank">Профиль на GitHub</a></li>
+            <li><a href="https://t.me/KTF_Practice" target="_blank">Telegram</a></li>
+            <li><a href="tel:+7-963-339-3960" target="_blank">Контактный телефон</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+{% extends 'review/base.html'%}
+
+{% block content %}
+<div>Фильм : {{movie}}</div>
+<div>Отзыв : {{review}}</div>
+<div>Оценка : {{review_score}}</div>
+<p>
+    {%for star in stars%}
+    {% if star %}
+    <span class="fa fa-star checked"></span>
+    {% else %}
+    <span class="fa fa-star unchecked"></span>
+    {% endif %}
+    {% endfor %}
+</p>
+<a href="{% url 'index' %}">Оставить еще один отзыв</a>
+{% endblock %}

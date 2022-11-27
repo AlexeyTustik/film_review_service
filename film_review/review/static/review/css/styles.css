@@ -1,0 +1,93 @@
+.button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 10px 35px 10px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.textarea {
+    width: 99%;
+    height: 150px;
+    width: 300px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+html,
+body {
+    font-family: 'Arial';
+    color: #444;
+}
+
+a {
+    color: #0059b2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.form-input {
+    width: 300px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+.form-label {
+    display: block;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    background: #EEEEEE;
+    margin: 0 auto;
+    height: 30px;
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: underline;
+    color: #aaa;
+}
+
+.checked {
+    color: orange;
+}
+
+footer ul {
+    margin: 0 auto;
+    padding: 0;
+}
+
+footer li {
+    list-style-type: none;
+    line-height: 9px;
+    height: 11px;
+    border-right: 1px solid #354052;
+    padding: 0px 10px;
+    display: inline;
+}
+
+footer li a {
+    text-decoration: none;
+    color: #354052;
+    font-size: 12px;
+}
